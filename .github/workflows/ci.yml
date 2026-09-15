@@ -13,5 +13,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install --upgrade pip pytest
-      - run: pytest -q
+      - run: python -m pytest -q
       - run: python experiments/cheapest_probe.py
+      - run: python experiments/calibrated_worlds.py
+      - run: python -m experiments.precision_frontier
