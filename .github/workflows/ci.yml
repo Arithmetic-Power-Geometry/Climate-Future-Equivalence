@@ -19,3 +19,4 @@ jobs:
       - run: python -m experiments.precision_frontier
       - run: python -m experiments.pattern_cloud_stress
       - run: python -m experiments.exact_cheapest_experiment
+      - run: python -m experiments.robust_cheapest_experiment
