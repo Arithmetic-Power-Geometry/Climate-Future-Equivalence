@@ -1,0 +1,5 @@
+"""Climate Future Equivalence experiment package.
+
+Copyright (C) 2026 Mohammad Amir Khusru Akhtar
+Licensed under the Apache License, Version 2.0.
+"""
